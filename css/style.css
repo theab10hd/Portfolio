@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.color-dark {
+  color: #1d1d1f !important;
+}
+
+.color-grey {
+  color: #6e6e73 !important;
+}
+
+.color-light {
+  color: #f5f5f7 !important;
+}
+
+.nav-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.primary {
+  color: rgb(215, 215, 215);
+}
+/* Box */
+
+.black-box {
+  width: 100%;
+  background-color: #1d1d1f;
+  height: 10vh;
+}
+
+.grey-box {
+  width: 100%;
+  background-color: #6e6e73;
+  height: 5vh;
+}
+
+.light-box {
+  width: 100%;
+  background-color: #cecece;
+  height: 2vh;
+}
+
+.skills-box {
+  border: 2px solid #1d1d1f;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.skills-box:hover {
+  background-color: #cecece;
+}
+
+.card {
+  transition: all 0.5s ease-in-out;
+}
+
+.card:hover {
+  scale: 1.05;
+}
