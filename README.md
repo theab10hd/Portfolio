@@ -1,4 +1,4 @@
-# Portfolio v1.0
+# Portfolio v1.1
 
 Its my first Portfolio made with HTML5, CSS and Bootstrap.
 
