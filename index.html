@@ -13,18 +13,16 @@
     />
     <!-- Custom Style -->
     <link rel="stylesheet" href="/css/style.css" />
-
+    <link rel="shortcut icon" href="/imgs/icon.png" type="image/x-icon" />
     <script src="/script/script.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   </head>
-
   <body>
     <!-- Header -->
     <header>
       <nav
         class="navbar fixed-top navbar-expand-lg d-flex justify-content-between p-1"
       >
-        <div class="container">
+        <div class="container pt-1 px-2">
           <a class="navbar-brand nav-title fs-3" href="#">
             <img src="/imgs/AbhijithGaganan.png" width="200px" alt="logo" />
           </a>
@@ -37,7 +35,7 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon border-none"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav m-0 d-flex justify-content-end">
@@ -62,16 +60,18 @@
       </nav>
     </header>
     <!-- Hero -->
-    <main class="p-5" id="home">
-      <div class="container mt-0 mt-lg-5">
+    <main class="px-1 py-5" id="home">
+      <div class="container mt-0 mt-lg-5 foreground">
         <div
           class="row d-flex justify-content-between align-items-center mt-0 mt-lg-5"
         >
-          <div class="col-lg-6 col-12 mb-4 d-flex justify-content-center">
+          <div
+            class="col-lg-6 col-12 mb-4 d-flex justify-content-center mt-5 mt-lg-3"
+          >
             <img
               src="imgs/myObj.png"
               alt="profile-image"
-              width="70%"
+              width="75%"
               id="profile-image"
             />
           </div>
@@ -90,21 +90,22 @@
         </div>
       </div>
     </main>
+    <!-- About Me -->
     <section id="about-me">
       <div class="container-fluid p-0 mt-5">
         <div class="black-box"></div>
         <div class="grey-box"></div>
         <div class="light-box"></div>
       </div>
-      <div class="container py-5">
+      <div class="container py-5 px-3">
         <h1 class="text-center fw-bold text-uppercase mb-5">About Me</h1>
         <div class="row mt-lg-2 mt-0 py-2">
           <div class="col-12 col-xl-6 mt-1">
-            <h4 class="text-uppercase mt-lg-5 mt-1">Personal Infos</h4>
+            <h4 class="text-uppercase mt-lg-5 mt-1 px-1">Personal Infos</h4>
             <div
               class="row mt-3 py-2 d-flex align-items-start justify-content-center"
             >
-              <div class="col-12 col-lg-6">
+              <div class="col-12 col-lg-6 px-3">
                 <h5 class="text-uppercase">First Name : <b>Abhijith</b></h5>
                 <h5 class="text-uppercase">Sex : <b>Male</b></h5>
                 <h5 class="text-uppercase">Age : <b>20</b></h5>
@@ -114,7 +115,7 @@
                 <h5 class="text-uppercase">Freelance : <b>Available</b></h5>
                 <h5 class="text-uppercase">Phone : <b>+91 8078 5564 11</b></h5>
               </div>
-              <div class="col-12 col-lg-6">
+              <div class="col-12 col-lg-6 px-3">
                 <h5 class="text-uppercase">Last Name : <b>Gaganan</b></h5>
                 <h5 class="text-uppercase">Nationality : <b>Indian</b></h5>
                 <h5 class="text-uppercase">
@@ -128,8 +129,8 @@
           </div>
           <!-- 2nd -->
           <div class="col-12 col-xl-6 mt-1">
-            <h4 class="text-uppercase mt-lg-5 mt-1">Skills</h4>
-            <div class="row mt-3 p-2 d-flex justify-content-center">
+            <h4 class="text-uppercase mt-lg-5 mt-1 p-3">Skills</h4>
+            <div class="row mt-3 p-3 d-flex justify-content-center">
               <div class="col-12 d-flex">
                 <div class="col-4 col-lg-4 m-0 p-1">
                   <div
@@ -207,7 +208,7 @@
                 </div>
               </div>
               <div class="col-12 d-flex">
-                <div class="col-4 col-lg-6 m-0 p-1">
+                <div class="col-5 col-lg-6 m-0 p-1">
                   <div
                     class="container skills-box p-2 d-flex flex-column align-items-center justify-content-center"
                   >
@@ -219,7 +220,7 @@
                     <h6 class="text-center">After Effects</h6>
                   </div>
                 </div>
-                <div class="col-4 col-lg-3 m-0 p-1">
+                <div class="col-3 col-lg-3 m-0 p-1">
                   <div
                     class="container skills-box p-2 d-flex flex-column align-items-center justify-content-center"
                   >
@@ -249,6 +250,7 @@
         </div>
       </div>
     </section>
+    <!-- Projects -->
     <section id="projects" style="background-color: #1d1d1f">
       <div class="container-fluid p-0 mt-5">
         <div class="light-box"></div>
@@ -288,16 +290,16 @@
                 <img
                   src="/imgs/Scrum board-pana.svg"
                   alt="project-baground"
-                  width="70%"
+                  width="60%"
                 />
               </div>
-              <div class="col-12 px-5 px-lg-0">
-                <h4 class="text-white text-center text-lg-start fw-normal">
+              <div class="col-12 px-4 px-lg-0">
+                <h5 class="text-white text-center text-lg-start fw-normal">
                   I recently completed a project, and while I currently don't
                   have any ongoing projects, I'm eager to take on new
                   opportunities. I'm available and ready to dive into another
                   project whenever the opportunity arises.
-                </h4>
+                </h5>
               </div>
             </div>
           </div>
@@ -309,6 +311,7 @@
       <div class="grey-box"></div>
       <div class="light-box"></div>
     </div>
+    <!-- Contact -->
     <section id="hire-me">
       <div class="container pt-5">
         <h3 class="text-center">Enough talking...</h3>
@@ -316,69 +319,92 @@
           Are you ready to hire me?
         </h1>
         <ul class="nav d-flex justify-content-center mt-3">
-          <li class="nav-items">
-            <a
-              href="https://www.facebook.com/theab10hd/"
-              target="_blank"
-              class="nav-link"
-              ><img
-                src="/imgs/icons/facebook.svg"
-                alt="facebook-icon"
-                srcset=""
-            /></a>
-          </li>
-          <li class="nav-items">
-            <a
-              href="https://www.instagram.com/abhijithgaganan"
-              target="_blank"
-              class="nav-link"
-              ><img
-                src="/imgs/icons/instagram.svg"
-                alt="instagram-icon"
-                srcset=""
-            /></a>
-          </li>
-          <li class="nav-items">
-            <a
-              href="https://wa.me/918078556411"
-              target="_blank"
-              class="nav-link"
-              ><img
-                src="/imgs/icons/whatsapp.svg"
-                alt="whatsapp-icon"
-                srcset=""
-            /></a>
-          </li>
-          <li class="nav-items">
-            <a
-              href="https://www.linkedin.com/in/abhijith-gaganan-212912218/"
-              target="_blank"
-              class="nav-link"
-              ><img src="/imgs/icons/linkedin.svg" alt="linkdin-icon" srcset=""
-            /></a>
-          </li>
-          <li class="nav-items">
-            <a
-              href="https://twitter.com/theab10hd"
-              target="_blank"
-              class="nav-link"
-              ><img src="/imgs/icons/twitter.svg" alt="twitter-icon" srcset=""
-            /></a>
-          </li>
-          <li class="nav-items">
-            <a
-              href="mailto:theab10hd@gmail.com"
-              target="_blank"
-              class="nav-link"
-              ><img
-                src="/imgs/icons/envelope-solid.svg"
-                alt="email-icon"
-                srcset=""
-            /></a>
-          </li>
+          <div class="row g-0">
+            <div class="col-12 col-lg-7 d-flex justify-content-center">
+              <li class="nav-items">
+                <a
+                  href="https://www.facebook.com/theab10hd/"
+                  target="_blank"
+                  class="nav-link"
+                  ><img
+                    src="/imgs/icons/facebook.svg"
+                    alt="facebook-icon"
+                    srcset=""
+                /></a>
+              </li>
+              <li class="nav-items">
+                <a
+                  href="https://www.instagram.com/abhijithgaganan"
+                  target="_blank"
+                  class="nav-link"
+                  ><img
+                    src="/imgs/icons/instagram.svg"
+                    alt="instagram-icon"
+                    srcset=""
+                /></a>
+              </li>
+              <li class="nav-items">
+                <a
+                  href="https://wa.me/918078556411"
+                  target="_blank"
+                  class="nav-link"
+                  ><img
+                    src="/imgs/icons/whatsapp.svg"
+                    alt="whatsapp-icon"
+                    srcset=""
+                /></a>
+              </li>
+              <li class="nav-items">
+                <a
+                  href="https://www.linkedin.com/in/abhijith-gaganan-212912218/"
+                  target="_blank"
+                  class="nav-link"
+                  ><img
+                    src="/imgs/icons/linkedin.svg"
+                    alt="linkdin-icon"
+                    srcset=""
+                /></a>
+              </li>
+            </div>
+            <div class="col-12 col-lg-5 d-flex justify-content-center">
+              <li class="nav-items">
+                <a
+                  href="https://twitter.com/theab10hd"
+                  target="_blank"
+                  class="nav-link"
+                  ><img
+                    src="/imgs/icons/twitter.svg"
+                    alt="twitter-icon"
+                    srcset=""
+                /></a>
+              </li>
+              <li class="nav-items">
+                <a
+                  href="https://github.com/theab10hd"
+                  target="_blank"
+                  class="nav-link"
+                  ><img
+                    src="/imgs/icons/github.svg"
+                    alt="twitter-icon"
+                    srcset=""
+                /></a>
+              </li>
+              <li class="nav-items">
+                <a
+                  href="mailto:theab10hd@gmail.com"
+                  target="_blank"
+                  class="nav-link"
+                  ><img
+                    src="/imgs/icons/envelope-solid.svg"
+                    alt="email-icon"
+                    srcset=""
+                /></a>
+              </li>
+            </div>
+          </div>
         </ul>
-        <div class="row mt-5 d-flex justify-content-center">
-          <div class="col-12 col-lg-3">
+        <div class="row g-3 mt-5 d-flex justify-content-center">
+          <div class="col-12 col-md-5">
             <h4 class="fw-bold text-uppercase">Address</h4>
             <h4>
               Elavakudiyil H <br />
@@ -386,23 +412,24 @@
               686691
             </h4>
           </div>
-          <div class="col-12 col-lg-3">
+          <div class="col-12 col-md-5">
             <h4 class="fw-bold text-uppercase">Phone</h4>
             <h4>+91 8078 5564 11<br />+91 9497 6864 11</h4>
           </div>
         </div>
       </div>
     </section>
+    <!-- Footer -->
     <div class="container-fluid p-0 mt-5">
       <div class="light-box"></div>
       <div class="grey-box"></div>
-      <div class="black-box"></div>
+      <div class="black-box d-flex justify-content-center align-items-end">
+        <p class="color-light fw-normal footer-text">
+          Made with love by Abhijith Gaganan | © 2023-24
+        </p>
+      </div>
     </div>
-    <footer class="d-flex justify-content-center align-items-center">
-      <h6 class="color-light pt-3 fw-normal">
-        Made with love by Abhijith Gaganan | © 2023-24
-      </h6>
-    </footer>
+    <footer></footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
